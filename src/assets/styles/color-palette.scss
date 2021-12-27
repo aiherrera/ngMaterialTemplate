@@ -1,0 +1,40 @@
+$primary: (
+  50: #e7e9ec,
+  100: #c4c8d0,
+  200: #9ca3b1,
+  300: #747e91,
+  400: #57637a,
+  500: #394762,
+  600: #33405a,
+  700: #2c3750,
+  800: #242f46,
+  900: #172034,
+  A100: #769cff,
+  A200: #4378ff,
+  A400: #1053ff,
+  A700: #0045f6,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #ffffff,
+    A400: #ffffff,
+    A700: #ffffff,
+  ),
+);
+
+$light-primary: mat-palette($primary, A200);
+$light-accent: mat-palette($primary, A700);
+$light-warn: mat-palette($mat-red);
+
+$dark-primary: mat-palette($primary, 500);
+$dark-accent: mat-palette($primary, A100);
+$dark-warn: mat-palette($mat-red, A100);
